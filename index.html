@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#home" class="logo">Tomáš <span>Indrák</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Domů</a>
+            <a href="#about">O mně</a>
+            <a href="#skills">Dovednosti</a>
+            <!-- <a href="#contact">Kontakt</a> -->
+        </nav>
+
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="home-img">
+            <img src="image.jpg" alt="">
+        </div>
+
+        <div class="home-content">
+            <h1>Ahoj, tady <span>Tom</span></h1>
+            <h3 class="text-animation">
+                Jsem <span></span>
+            </h3>
+
+            <p>
+                Vítejte na mém webu, můžete si zde přečíst něco málo o mně.
+            </p>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/tomáš-indrák-8187a5234/"><i class='bx bxl-linkedin-square' ></i></a>
+            </div>
+
+            <a href="#skills" class="btn">Dovednosti</a>
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">O <span>Mně</span></h2>
+            <h3 class="text-animation"><span></span></h3>
+            <p>Jsem nadšeným umělcem a designerem. 
+                Nebojím se jakékoliv kreativní práce. 
+                Jsem odhodlaný a jdu si tvrdě za svým. 
+                Co se ale týče práce na zakázku, umím dělat i kompromisy.
+            </p>
+        </div>
+        <div class="about-img">
+            <img src="image.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">Dovednosti</h2>
+
+        <div class="skills-container">
+
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>2D grafika</h4>
+                    <p>Ať se jedná o vektorovou nebo rastrovou grafiku,
+                        zvládám naprosto vše. Od tvorby loga až po reklamní materiály.
+                    </p>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>Video Editing</h4>
+                    <p>
+                        Střih videa je pro mě naprostá hračka.
+                        Reklamní spot, videa na sociální sítě?
+                        Zvládám vše.
+                    </p>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>UX / UI design</h4>
+                    <p>
+                        Chcete vytvořit parádní návrh webu nebo aplikace.
+                        Stačí jen napsat a domluvíme se.
+                    </p>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>Focení</h4>
+                    <p>
+                        Potřebujete nafotit kvalitní reklamní materiál?
+                        Žádný problém. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>3D grafika</h4>
+                    <p>
+                        Potřebujete vytvořit model produktu
+                        nebo velmi poutavou grafiku pro váš web či příspěvky na sociálních sítích?
+                        Stačí se ozvat.
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+<!--
+    <section class="contact" id="contact">
+        <h2 class="heading">Kontaktujte <span>Mě</span></h2>
+
+        <form action="#">
+
+            <div class="input-box">
+                <input type="text" placeholder="Celé Jméno">
+                <input type="email" placeholder="Email">
+
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Tel. Číslo">
+                <input type="text" placeholder="Předmět">
+            </div>
+
+            <div class="input-box">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Vaše Zpráva"></textarea>
+                <input type="submit" value="Poslat Zprávu">
+            </div>
+
+        </form>
+    </section>
+
+    -->
+
+
+
+    <footer class="footer">
+
+        <div class="social">
+            <a href="https://www.linkedin.com/in/tomáš-indrák-8187a5234/"><i class='bx bxl-linkedin-square' ></i></a>
+        </div>
+
+        <ul class="list">
+            
+            <li>
+                <a href="#skills">Dovednosti</a>
+            </li>
+
+            <li>
+                <a href="#about">O Mně</a>
+            </li>
+
+            <!--<li>
+                <a href="#contact">Kontakt</a>
+            </li>-->
+
+        </ul>
+
+        <p class="copyright">
+            © Tomáš indrák
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
